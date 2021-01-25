@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jobify</title>
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="favicon.ico" alt=""> Jobify</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"></div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link " href="#" style="color:#5fa;">Find Job <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Company Review</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find Salaries</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#" class="account-link"><i class="far fa-user-circle hover-color"></i> Account</a>
+  </nav>
+  <!-- Navigation Bar -->
+
+  <!-- Search Bar -->
+  <div class="container-fluid search-bar">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 columns">
+          <i class="fas fa-search hover-color"></i>
+          <input type="text" name="" value="" placeholder="UI/UX Designer" style="width: 150px;" class="input-for-search">
+          <i class="fas fa-times fa-1 hover-color"></i>
+
+        </div>
+        <div class="col-lg-2 columns ">
+          <p class="feature-desc"><i class="fas fa-map-marker-alt hover-color"></i><strong> Mumbai</strong></p>
+        </div>
+        <div class="col-lg-2 columns ">
+          <p class="feature-desc"><i class="fas fa-suitcase hover-color"></i> Industry</p>
+        </div>
+        <div class="col-lg-2 columns ">
+          <P><i class="fas fa-wallet feature-desc hover-color"></i> Job Type</P>
+        </div>
+        <div class="col-lg-2 columns ">
+          <P><i class="fas fa-wallet feature-desc hover-color"></i> Salary Range</P>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Search Bar -->
+
+
+  <!--Side Box For Alerts -->
+  <div class="alerts-box rounded">
+    <h4 class="display-inline alert-contents">Create a Job Alert</h4><br>
+    <p class="display-inline alert-contents" style="line-height:2">Create a job alert and <br>never miss an update.</p><br>
+    <input type="text" name="" value="" placeholder="Enter a job keyword" class="alert-contents"> <br>
+    <button type="Submit" name="button" class="btn btn-success alert-contents">Create job alert</button>
+  </div>
+  <!-- Side Box For Alerts -->
+
+  <!-- Main-Body -->
+  <div class="main-part">
+    <h2 style="display:inline;"> Showing 27 Results</h2>
+     <!-- <p style="display:inline;margin-left:548px;">Sort By:<h5 style="display:inline;"> Most Recent</h5>
+    </p> -->
+    <div class="dropup" style="display:inline-block; margin-left:600px;">
+  <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Sort By
+  </button>
+  <div class="dropdown-menu dropup" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item dropup" href="#">Most Recent</a>
+    <a class="dropdown-item dropup" href="#">Relevance</a>
+
+  </div>
+</div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-2.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Info Media</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >UI/UX Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-3.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Snap Hunt</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >Product Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Pune</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-4.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Tech Valley</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >Interface Designer - Lead</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go Save</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-5.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Altro Software</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >Sr. UI/UX Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Thane</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-6.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">D-Sign Corp</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >Manager UX</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Delhi</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-7.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">YELL</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >UI Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go Save</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <br><br>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-8.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">ViteStork</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >User Experience Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Chennai</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-9.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Avon Nxt</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <h5 class = "job-title" >Fresher UI/UX Designer</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Ahmedabad</p>
+            <a href="#" class="btn btn-success">Apply Now</a>
+            <a href="#" class="btn btn-secondary">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Special title treatment</h5> -->
+            <img src="favicon-10.ico" alt="">
+            <h4 style="display:inline-block;" class="company-name">Regalix Media</h4>
+            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+             <h5 class = "job-title" >UI/UX Designer</h5>
+             <p><i class="fas fa-map-marker-alt"></i> Mumbai</p>
+            <a href="#" class="btn btn-success ">Apply Now</a>
+            <a href="#" class="btn btn-secondary ">Save for Later</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-success">Go somewhere</a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+  <br>
+  <div class="side-box">
+    <h6>Type Of Employment</h6>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Full-Time Jobs</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Part-Time Jobs</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Remote Jobs</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Internship Jobs</p><br>
+
+
+    <hr>
+
+    <h6>Seniority Level</h6>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Entry-Level</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> Mid-Level</p><br>
+    <input type="checkbox" name="E-type" value="">
+
+    <p style="display:inline;line-height:2;"> Director</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> VP or Above</p><br>
+
+
+    <hr>
+
+    <h6>Salary Range</h6>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> &#x20b9; 20,000 - &#x20b9; 35,000</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> &#x20b9; 40,000 - &#x20b9; 55,000</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> &#x20b9; 60,000 - &#x20b9; 75,000</p><br>
+    <input type="checkbox" name="E-type" value="">
+    <p style="display:inline;line-height:2;"> &#x20b9; 80,000 - &#x20b9; 95,000</p><br>
+
+
+  </div>
+  </div>
+
+
+
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ***************************** Footer *********************** -->
+  <div class="entire-footer">
+
+    <div class="container footer">
+      <div class="row last-row">
+        <div class="col-lg-3">
+          <h4 class="last-h4">Job Seekers</h4>
+          <a class="last-a" href="#">Job Search</a><br>
+          <a class="last-a" href="#">Search Companies</a><br>
+          <a class="last-a" href="#">Upload Resumes</a><br>
+          <a class="last-a" href="#">Career Advice</a><br>
+           <a class="last-a" href="#">Free Job Alert</a>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="last-h4">Employers</h4>
+          <a class="last-a" href="#">Employer Login</a><br>
+          <a class="last-a" href="#">Job Posting</a><br>
+          <a class="last-a" href="#">Advertise With Us</a><br>
+          <a class="last-a" href="#">Research Report</a>
+        </div>
+        <div class="col-lg-3">
+          <h4 class="last-h4">Jobify</h4>
+          <a class="last-a" href="#">Contact Us</a><br>
+          <a class="last-a" href="#">Career With Us</a><br>
+          <a class="last-a" href="#">Send Feedback</a><br>
+          <a class="last-a" href="#">Testimonials</a><br>
+
+        </div>
+        <div class="col-lg-3">
+          <h4 class="last-h4">Stay Connected</h4>
+          <a class="last-a" href="#">Facebook</a><br>
+          <a class="last-a" href="#">Twitter</a><br>
+          <a class="last-a" href="#">Instagram</a><br>
+          <a class="last-a" href="#">Linkedin</a><br>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <div class="last-side">
+    <h2 style="color:#5fa;">About</h2>
+    <p>Jobify is the world's leading community for creatives to share, grow, and get hired.</p>
+    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download </button>
+    <button type="button" class="btn btn-outline-success btn-lg"><i class="fab fa-google-play"></i> Download </button>
+
+  </div>
+
+  </div>
+
+  <div class="copyright-div">
+    <p class ="copyright-p">© 2021 Jobify. All rights reserved.</p>
+
+  </div>
+  <!-- ***************************** End Of Footer ************************-->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

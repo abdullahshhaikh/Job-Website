@@ -1,0 +1,163 @@
+.navlink{
+  padding-right: 10px;
+}
+
+
+.account-link{
+  margin-right: 50px;
+  color:#5fa;
+}
+
+/* .search-bar{
+  margin-right: 5%;
+} */
+
+.search-bar{
+  position: relative;
+  right: 115px;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 5%;
+}
+
+.fas ,.far{
+  color:#5fa;
+  margin-right: 5px;
+}
+
+.alerts-box{
+  margin-top: 40px;
+ margin-left: 17px;
+ width: 250px;
+ background-color: #ccf6c8;
+ /* text-align: center; */
+}
+
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.display-inline{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.fa-search{
+  position: absolute;
+  left: 20px;
+  top: 6px;
+}
+
+.input-for-search{
+  position: absolute;
+  left: 50px;
+}
+
+.input-2{
+  position: absolute;
+  left: 170px;
+
+}
+.alert-contents{
+  margin-left: 10px;
+}
+
+.fa-1{
+  position: absolute;
+  left: 210px;
+  top:7px;
+}
+
+/* .fa-2{
+  position: absolute;
+  left: 240px;
+  top:7px;
+} */
+
+
+.main-part{
+  width:1000px;
+  position: absolute;
+  left: 300px;
+  top: 170px;
+}
+
+.side-box{
+  margin-left: 20px;
+  width:20%;
+}
+
+.pagination{
+  margin-top: 180px;
+}
+
+
+/* ****************************** Footer ******************************************/
+.entire-footer{
+  background-color: #f8f9fa;
+}
+
+.footer{
+  margin-left: 350px;
+  margin-top: 100px;
+  width:60%;
+}
+
+
+
+.last-side{
+  width: 20%;
+  height:30%;
+  margin-left: 20px;
+  position: absolute;
+  top: 1300px;
+}
+
+.last-h4{
+  margin-top: 15px;
+  color: #5fa;
+}
+
+.last-a{
+  line-height: 3;
+  color: black;
+}
+
+.btn-dark{
+  position: relative;
+  left:1px;
+
+}
+
+
+.btn-outline-success{
+  position:relative;
+  bottom:25px;
+}
+
+.copyright-div{
+  text-align: center;
+  background-color:#f8f9fa;
+}
+.copyright-p{
+  display: inline-block;
+  /* position: absolute;
+  right:20px;  */
+}
+
+.job-title{
+
+  margin-top: 20px;
+  line-height: 1;
+}
+
+.company-name{
+  position: relative;
+  top: 5px;
+}
+
+.hover-color:hover{
+  color:#16c79a;
+}
