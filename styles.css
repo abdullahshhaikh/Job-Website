@@ -161,3 +161,15 @@
 .hover-color:hover{
   color:#16c79a;
 }
+
+@media (max-width:800px){
+  .last-footer-media{
+    display:none;
+  }
+  .copyright-div{
+    display: none;
+  }
+  .page-change ,.hide{
+    display: none;
+  }
+}
